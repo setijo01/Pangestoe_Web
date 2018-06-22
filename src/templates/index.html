@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Pangestoe Bespoke</title>
+    <link rel="icon" href= "{{ url_for('static', filename='img/favicon_.png') }}" />
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/gallery.css') }}">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="container" id="main_container">
+        <div class="logo"><img src="{{ url_for('static', filename='img/logo_placeholder.png') }}"></div>
+        <nav class="navbar navbar-light navbar-expand-md bg-light justify-content-between">
+            <div class="logo-placeholder"></div>
+            <button class="navbar-toggler ml-1" type="button" data-toggle="collapse" data-target="#collapsingNavbar2">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="navbar-collapse collapse justify-content-between align-items-center w-100" id="collapsingNavbar2">
+                <ul class="navbar-nav mx-auto text-center">
+                    <li class="nav-item ">
+                        <a class="nav-link" href="#about">About<span class="sr-only">About</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#gallery">Gallery</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#blog">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+                <ul class="nav navbar-nav flex-row justify-content-center flex-nowrap">
+                    <li class="nav-item"><a class="nav-link" href=""><i class="fa fa-phone"></i></a> </li>
+                    <li class="nav-item"><a class="nav-link" href=""><i class="fa fa-mobile"></i></a> </li>
+                    <li class="nav-item"><a class="nav-link" href=""><i class="fa fa-envelope"></i></a> </li>
+                    <li class="nav-item"><a class="nav-link" href=""><i class="fab fa-instagram"></i></a> </li>
+                    <li class="nav-item"><a class="nav-link" href=""><i class="fa fa-map"></i></a> </li>
+
+                </ul>
+            </div>
+        </nav>
+
+        <section class="heading">
+            <div class="heading_box">
+              <h3 class="heading_text">Classic Menswear</h3>
+              <p class="tagline">Using the best fabric all around the world</p>
+            </div>
+        </section>
+
+        <div class="container-fluid" id="about">
+            <div class="row">
+                <h3 id="about_title">About Us</h3>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <p>Going on from previous generations, as it would be such a waste to leave our legacy; since our old man had started tailoring since 1971, as well, we are certain that we are capable of amending his brilliant skill, indeed, developing them to the next level. Becoming a tailor is the path our grandfather claimed; since 1971, in which was triumphant, our father and grandfather started the business nomadically.</p>
+                </div>
+                <div class="col">
+                    <p>Continuing the current business with head start, Pangestoe Bespoke adapted and developed tailor in indonesia in the year of 2016. Quality became our main priority. By bringing down the finest fabrique from all over the globe, making finest clothings with tons of experience. Making outfits are not just producing them, but it is like making a masterpiece, which is made by passion.</p>
+                </div>
+                <div class="col">
+                    <p>We are committed to give our best shot which fits the best, most excellent, and best experience. And we will only be satisfied when our customers are, in here we don’t only put on clothes on men, for more, we do provide consults or any other question of how to dress up as fine men.</p>
+                </div>
+            </div>
+        </div>
+
+        <section class="first_banner">
+            <h3 class="first_banner_txt">Bespoke suits are the modern day armor to survive the reality of life.</h3>
+        </section>
+
+        <div class="gallery" id="gallery">
+            {% include "gallery.html" %}
+        </div>
+
+        <section class="second_banner">
+            <h3 class="second_banner_txt">The details of your suit defines who you are as a man.</h3>
+        </section>
+    </div>
+</body>
+</html>

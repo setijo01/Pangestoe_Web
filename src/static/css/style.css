@@ -1,0 +1,130 @@
+body {
+    font-family: Palatino, Palatino Linotype, Palatino LT STD, serif;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 400;
+    background-image: url(../img/bg.gif);
+    margin: 0;
+}
+
+#main_container {
+    width: 120%!important;
+    height: 3500px;
+    margin-left: auto;
+    margin-right: auto;
+    background: #ffffff;
+    padding: 0;
+}
+
+.navbar-light {
+    background-color: #ffffff!important;
+    letter-spacing: 1px;
+    border-bottom: 1px solid #d89d29!important;
+}
+
+.logo {
+	color: #000;
+	font-weight: bold;
+    height: 4%;
+	float: left;
+	margin-top: -10px;
+	margin-left: -9px;
+	letter-spacing: 4px;
+
+}
+
+div.logo img {
+    height: 100% !important;
+}
+
+.heading {
+
+	background: url(../img/1/Pangestoe-33.jpg) no-repeat fixed center bottom;
+    background-size: cover;
+	padding-top: 150px;
+	padding-bottom: 150px;
+    height: 550px;
+}
+
+
+.heading_text {
+	text-align: center;
+	margin: 0;
+	letter-spacing: 1px;
+}
+
+div.heading_box {
+	width: 40%;
+    margin: 40px auto auto auto;
+    padding: 20px 10px;
+    text-align: center;
+	vertical-align: middle;
+	border-radius: 0px;
+	text-transform: uppercase;
+	font-weight: bold;
+	letter-spacing: 2px;
+	border: 3px solid #131729;
+	color: #131729;
+	background-color: rgba(255,255,255,0.65);
+
+}
+.tagline {
+	text-align: center;
+	margin-top: 4px;
+	font-weight: lighter;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+}
+
+#about{
+    color: #3b3b3b;
+    line-height: 30px;
+    width: 80%;
+    margin-bottom: 30px;
+
+}
+#about_title{
+    text-align: center;
+    margin: 30px auto;
+}
+
+.first_banner {
+    height: 500px;
+    background: url(../img/2/Pangestoe-51.jpg) no-repeat fixed center bottom;
+    background-size: cover;
+}
+
+.first_banner_txt {
+	color: #FFFFFF;
+	float: left;
+	text-align: left;
+	padding-left: 100px;
+	padding-top: 110px;
+	letter-spacing: 2px;
+	margin-top: 0px;
+	width: 500px;
+}
+
+.second_banner {
+    height: 500px;
+    background: url(../img/2/Pangestoe-16.jpg) no-repeat fixed center bottom;
+    background-size: cover;
+}
+
+.second_banner_txt{
+	color: #FFFFFF;
+	float: right;
+	text-align: right;
+	padding-right: 100px;
+	padding-top: 110px;
+	letter-spacing: 2px;
+	margin-top: 0px;
+	width: 500px;
+}
+
+@media (min-width: 1200px){
+    .container {
+    max-width: 1600px;
+}
+}
+
