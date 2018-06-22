@@ -17,4 +17,4 @@ def initialize_database():
 
 @app.route('/')
 def index():
-    return render_template('gallery_view.html')
+    return render_template('index.html')
