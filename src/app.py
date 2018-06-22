@@ -1,11 +1,12 @@
 from flask import Flask, render_template, request, session, redirect, url_for
 from src.common.database import Database
 from src.models.entries.entry import Entry
+import os
 
 app = Flask(__name__)
 app.config.from_object('src.config')
 
-app.secret_key = 'ReplaceThisWithEnvironmentVariable'
+app.secret_key = os.environ.get('SECRET_KEY')
 
 
 @app.before_first_request

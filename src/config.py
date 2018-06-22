@@ -1,2 +1,4 @@
+import os
+
 DEBUG = True
-ADMIN = frozenset(['marvinpangestoe@gmail.com'])
+ADMIN = frozenset([os.environ.get('ADMIN_EMAIL')])
