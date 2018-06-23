@@ -1,5 +1,5 @@
 body {
-    font-family: Palatino, Palatino Linotype, Palatino LT STD, serif;
+    /*font-family: Palatino, Palatino Linotype, Palatino LT STD, serif;*/
 	font-style: normal;
 	font-variant: normal;
 	font-weight: 400;
@@ -9,7 +9,7 @@ body {
 
 #main_container {
     width: 120%!important;
-    height: 3500px;
+    height: 4000px;
     margin-left: auto;
     margin-right: auto;
     background: #ffffff;
@@ -25,7 +25,7 @@ body {
 .logo {
 	color: #000;
 	font-weight: bold;
-    height: 4%;
+    height: 3.5%;
 	float: left;
 	margin-top: -10px;
 	margin-left: -9px;
@@ -39,7 +39,7 @@ div.logo img {
 
 .heading {
 
-	background: url(../img/1/Pangestoe-33.jpg) no-repeat fixed center bottom;
+	background: url(../img/banners/cover.jpg) no-repeat fixed center bottom;
     background-size: cover;
 	padding-top: 150px;
 	padding-bottom: 150px;
@@ -48,13 +48,14 @@ div.logo img {
 
 
 .heading_text {
+	font-style: normal;
 	text-align: center;
 	margin: 0;
 	letter-spacing: 1px;
 }
 
 div.heading_box {
-	width: 40%;
+	width: 33%;
     margin: 40px auto auto auto;
     padding: 20px 10px;
     text-align: center;
@@ -81,6 +82,7 @@ div.heading_box {
     line-height: 30px;
     width: 80%;
     margin-bottom: 30px;
+	text-align: justify;
 
 }
 #about_title{
@@ -90,7 +92,7 @@ div.heading_box {
 
 .first_banner {
     height: 500px;
-    background: url(../img/2/Pangestoe-51.jpg) no-repeat fixed center bottom;
+    background: url(../img/banners/banner1.jpg) no-repeat fixed center bottom;
     background-size: cover;
 }
 
@@ -107,7 +109,7 @@ div.heading_box {
 
 .second_banner {
     height: 500px;
-    background: url(../img/2/Pangestoe-16.jpg) no-repeat fixed center bottom;
+    background: url(../img/banners/banner2.jpg) no-repeat fixed center bottom;
     background-size: cover;
 }
 
