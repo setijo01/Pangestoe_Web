@@ -6,7 +6,7 @@ import os
 app = Flask(__name__)
 app.config.from_object('src.config')
 
-app.secret_key = os.environ.get('SECRET_KEY')
+app.secret_key = str(os.environ.get('SECRET_KEY'))
 
 
 @app.before_first_request

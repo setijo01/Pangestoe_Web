@@ -1,0 +1,541 @@
+*** Starting uWSGI 2.0.17 (64bit) on [Sat Jun 23 06:16:27 2018] ***
+compiled with version: 4.4.7 20120313 (Red Hat 4.4.7-18) on 23 June 2018 02:58:06
+os: Linux-2.6.32-696.30.1.el6.x86_64 #1 SMP Tue May 22 03:28:18 UTC 2018
+nodename: pangestoe-server
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /
+detected binary path: /var/www/html/pangestoe-server/venv/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+setgid() to 500
+setuid() to 500
+your processes number limit is 3896
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+Python version: 3.6.5 (default, Jun 23 2018, 02:20:49)  [GCC 4.4.7 20120313 (Red Hat 4.4.7-18)]
+*** starting uWSGI Emperor ***
+*** has_emperor mode detected (fd: 5) ***
+[uWSGI] getting INI configuration from /var/www/html/pangestoe-server/uwsgi.ini
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x1444990
+your mercy for graceful operations on workers is 60 seconds
+*** Operational MODE: no-workers ***
+spawned uWSGI master process (pid: 9149)
+Sat Jun 23 06:16:27 2018 - [emperor] vassal /var/www/html/pangestoe-server/uwsgi.ini has been spawned
+Sat Jun 23 06:16:27 2018 - [emperor] vassal /var/www/html/pangestoe-server/uwsgi.ini is ready to accept requests
+SIGINT/SIGQUIT received...killing workers...
+waiting for Emperor death...
+[emperor] *** RAGNAROK EVOKED ***
+Sat Jun 23 06:16:42 2018 - [emperor] stop the uwsgi instance /var/www/html/pangestoe-server/uwsgi.ini
+waiting for Emperor death...
+waiting for Emperor death...
+Sat Jun 23 06:16:44 2018 - [emperor] removed uwsgi instance /var/www/html/pangestoe-server/uwsgi.ini
+waiting for Emperor death...
+Sat Jun 23 06:16:45 2018 - The Emperor is buried.
+The Emperor has been buried (pid: 9150)
+goodbye to uWSGI.
+*** Starting uWSGI 2.0.17 (64bit) on [Sat Jun 23 06:16:46 2018] ***
+compiled with version: 4.4.7 20120313 (Red Hat 4.4.7-18) on 23 June 2018 02:58:06
+os: Linux-2.6.32-696.30.1.el6.x86_64 #1 SMP Tue May 22 03:28:18 UTC 2018
+nodename: pangestoe-server
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /
+detected binary path: /var/www/html/pangestoe-server/venv/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+setgid() to 500
+setuid() to 500
+your processes number limit is 3896
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+Python version: 3.6.5 (default, Jun 23 2018, 02:20:49)  [GCC 4.4.7 20120313 (Red Hat 4.4.7-18)]
+*** starting uWSGI Emperor ***
+*** has_emperor mode detected (fd: 5) ***
+[uWSGI] getting INI configuration from /var/www/html/pangestoe-server/uwsgi.ini
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x2237990
+your mercy for graceful operations on workers is 60 seconds
+*** Operational MODE: no-workers ***
+spawned uWSGI master process (pid: 9225)
+Sat Jun 23 06:16:47 2018 - [emperor] vassal /var/www/html/pangestoe-server/uwsgi.ini has been spawned
+Sat Jun 23 06:16:47 2018 - [emperor] vassal /var/www/html/pangestoe-server/uwsgi.ini is ready to accept requests
+SIGINT/SIGQUIT received...killing workers...
+waiting for Emperor death...
+[emperor] *** RAGNAROK EVOKED ***
+Sat Jun 23 06:17:13 2018 - [emperor] stop the uwsgi instance /var/www/html/pangestoe-server/uwsgi.ini
+waiting for Emperor death...
+waiting for Emperor death...
+Sat Jun 23 06:17:15 2018 - [emperor] removed uwsgi instance /var/www/html/pangestoe-server/uwsgi.ini
+waiting for Emperor death...
+Sat Jun 23 06:17:16 2018 - The Emperor is buried.
+The Emperor has been buried (pid: 9226)
+goodbye to uWSGI.
+*** Starting uWSGI 2.0.17 (64bit) on [Sat Jun 23 06:17:17 2018] ***
+compiled with version: 4.4.7 20120313 (Red Hat 4.4.7-18) on 23 June 2018 02:58:06
+os: Linux-2.6.32-696.30.1.el6.x86_64 #1 SMP Tue May 22 03:28:18 UTC 2018
+nodename: pangestoe-server
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /
+detected binary path: /var/www/html/pangestoe-server/venv/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+setgid() to 500
+setuid() to 500
+your processes number limit is 3896
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+Python version: 3.6.5 (default, Jun 23 2018, 02:20:49)  [GCC 4.4.7 20120313 (Red Hat 4.4.7-18)]
+*** starting uWSGI Emperor ***
+*** has_emperor mode detected (fd: 5) ***
+[uWSGI] getting INI configuration from /var/www/html/pangestoe-server/uwsgi.ini
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0xfe0990
+your mercy for graceful operations on workers is 60 seconds
+*** Operational MODE: no-workers ***
+spawned uWSGI master process (pid: 9302)
+Sat Jun 23 06:17:17 2018 - [emperor] vassal /var/www/html/pangestoe-server/uwsgi.ini has been spawned
+Sat Jun 23 06:17:17 2018 - [emperor] vassal /var/www/html/pangestoe-server/uwsgi.ini is ready to accept requests
+[emperor] *** RAGNAROK EVOKED ***
+Sat Jun 23 06:20:51 2018 - [emperor] stop the uwsgi instance /var/www/html/pangestoe-server/uwsgi.ini
+SIGINT/SIGQUIT received...killing workers...
+waiting for Emperor death...
+[emperor] *** RAGNAROK ALREADY EVOKED (mercyless in 30 seconds)***
+waiting for Emperor death...
+waiting for Emperor death...
+waiting for Emperor death...
+waiting for Emperor death...
+*** Starting uWSGI 2.0.17 (64bit) on [Sat Jun 23 06:21:10 2018] ***
+compiled with version: 4.4.7 20120313 (Red Hat 4.4.7-18) on 23 June 2018 02:58:06
+os: Linux-2.6.32-696.30.1.el6.x86_64 #1 SMP Tue May 22 03:28:18 UTC 2018
+nodename: pangestoe-server
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /
+detected binary path: /var/www/html/pangestoe-server/venv/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+group jose not found.
+*** Starting uWSGI 2.0.17 (64bit) on [Sat Jun 23 06:21:10 2018] ***
+compiled with version: 4.4.7 20120313 (Red Hat 4.4.7-18) on 23 June 2018 02:58:06
+os: Linux-2.6.32-696.30.1.el6.x86_64 #1 SMP Tue May 22 03:28:18 UTC 2018
+nodename: pangestoe-server
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /
+detected binary path: /var/www/html/pangestoe-server/venv/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+group jose not found.
+*** Starting uWSGI 2.0.17 (64bit) on [Sat Jun 23 06:21:10 2018] ***
+compiled with version: 4.4.7 20120313 (Red Hat 4.4.7-18) on 23 June 2018 02:58:06
+os: Linux-2.6.32-696.30.1.el6.x86_64 #1 SMP Tue May 22 03:28:18 UTC 2018
+nodename: pangestoe-server
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /
+detected binary path: /var/www/html/pangestoe-server/venv/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+group jose not found.
+*** Starting uWSGI 2.0.17 (64bit) on [Sat Jun 23 06:21:10 2018] ***
+compiled with version: 4.4.7 20120313 (Red Hat 4.4.7-18) on 23 June 2018 02:58:06
+os: Linux-2.6.32-696.30.1.el6.x86_64 #1 SMP Tue May 22 03:28:18 UTC 2018
+nodename: pangestoe-server
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /
+detected binary path: /var/www/html/pangestoe-server/venv/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+group jose not found.
+*** Starting uWSGI 2.0.17 (64bit) on [Sat Jun 23 06:21:10 2018] ***
+compiled with version: 4.4.7 20120313 (Red Hat 4.4.7-18) on 23 June 2018 02:58:06
+os: Linux-2.6.32-696.30.1.el6.x86_64 #1 SMP Tue May 22 03:28:18 UTC 2018
+nodename: pangestoe-server
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /
+detected binary path: /var/www/html/pangestoe-server/venv/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+group jose not found.
+*** Starting uWSGI 2.0.17 (64bit) on [Sat Jun 23 06:21:10 2018] ***
+compiled with version: 4.4.7 20120313 (Red Hat 4.4.7-18) on 23 June 2018 02:58:06
+os: Linux-2.6.32-696.30.1.el6.x86_64 #1 SMP Tue May 22 03:28:18 UTC 2018
+nodename: pangestoe-server
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /
+detected binary path: /var/www/html/pangestoe-server/venv/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+group jose not found.
+*** Starting uWSGI 2.0.17 (64bit) on [Sat Jun 23 06:21:10 2018] ***
+compiled with version: 4.4.7 20120313 (Red Hat 4.4.7-18) on 23 June 2018 02:58:06
+os: Linux-2.6.32-696.30.1.el6.x86_64 #1 SMP Tue May 22 03:28:18 UTC 2018
+nodename: pangestoe-server
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /
+detected binary path: /var/www/html/pangestoe-server/venv/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+group jose not found.
+*** Starting uWSGI 2.0.17 (64bit) on [Sat Jun 23 06:21:10 2018] ***
+compiled with version: 4.4.7 20120313 (Red Hat 4.4.7-18) on 23 June 2018 02:58:06
+os: Linux-2.6.32-696.30.1.el6.x86_64 #1 SMP Tue May 22 03:28:18 UTC 2018
+nodename: pangestoe-server
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /
+detected binary path: /var/www/html/pangestoe-server/venv/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+group jose not found.
+*** Starting uWSGI 2.0.17 (64bit) on [Sat Jun 23 06:21:10 2018] ***
+compiled with version: 4.4.7 20120313 (Red Hat 4.4.7-18) on 23 June 2018 02:58:06
+os: Linux-2.6.32-696.30.1.el6.x86_64 #1 SMP Tue May 22 03:28:18 UTC 2018
+nodename: pangestoe-server
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /
+detected binary path: /var/www/html/pangestoe-server/venv/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+group jose not found.
+*** Starting uWSGI 2.0.17 (64bit) on [Sat Jun 23 06:21:10 2018] ***
+compiled with version: 4.4.7 20120313 (Red Hat 4.4.7-18) on 23 June 2018 02:58:06
+os: Linux-2.6.32-696.30.1.el6.x86_64 #1 SMP Tue May 22 03:28:18 UTC 2018
+nodename: pangestoe-server
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /
+detected binary path: /var/www/html/pangestoe-server/venv/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+group jose not found.
+*** Starting uWSGI 2.0.17 (64bit) on [Sat Jun 23 06:21:10 2018] ***
+compiled with version: 4.4.7 20120313 (Red Hat 4.4.7-18) on 23 June 2018 02:58:06
+os: Linux-2.6.32-696.30.1.el6.x86_64 #1 SMP Tue May 22 03:28:18 UTC 2018
+nodename: pangestoe-server
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /
+detected binary path: /var/www/html/pangestoe-server/venv/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+group jose not found.
+*** Starting uWSGI 2.0.17 (64bit) on [Sat Jun 23 06:22:12 2018] ***
+compiled with version: 4.4.7 20120313 (Red Hat 4.4.7-18) on 23 June 2018 02:58:06
+os: Linux-2.6.32-696.30.1.el6.x86_64 #1 SMP Tue May 22 03:28:18 UTC 2018
+nodename: pangestoe-server
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /
+detected binary path: /var/www/html/pangestoe-server/venv/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+group jose not found.
+*** Starting uWSGI 2.0.17 (64bit) on [Sat Jun 23 06:22:12 2018] ***
+compiled with version: 4.4.7 20120313 (Red Hat 4.4.7-18) on 23 June 2018 02:58:06
+os: Linux-2.6.32-696.30.1.el6.x86_64 #1 SMP Tue May 22 03:28:18 UTC 2018
+nodename: pangestoe-server
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /
+detected binary path: /var/www/html/pangestoe-server/venv/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+group jose not found.
+*** Starting uWSGI 2.0.17 (64bit) on [Sat Jun 23 06:22:12 2018] ***
+compiled with version: 4.4.7 20120313 (Red Hat 4.4.7-18) on 23 June 2018 02:58:06
+os: Linux-2.6.32-696.30.1.el6.x86_64 #1 SMP Tue May 22 03:28:18 UTC 2018
+nodename: pangestoe-server
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /
+detected binary path: /var/www/html/pangestoe-server/venv/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+group jose not found.
+*** Starting uWSGI 2.0.17 (64bit) on [Sat Jun 23 06:22:12 2018] ***
+compiled with version: 4.4.7 20120313 (Red Hat 4.4.7-18) on 23 June 2018 02:58:06
+os: Linux-2.6.32-696.30.1.el6.x86_64 #1 SMP Tue May 22 03:28:18 UTC 2018
+nodename: pangestoe-server
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /
+detected binary path: /var/www/html/pangestoe-server/venv/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+group jose not found.
+*** Starting uWSGI 2.0.17 (64bit) on [Sat Jun 23 06:22:12 2018] ***
+compiled with version: 4.4.7 20120313 (Red Hat 4.4.7-18) on 23 June 2018 02:58:06
+os: Linux-2.6.32-696.30.1.el6.x86_64 #1 SMP Tue May 22 03:28:18 UTC 2018
+nodename: pangestoe-server
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /
+detected binary path: /var/www/html/pangestoe-server/venv/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+group jose not found.
+*** Starting uWSGI 2.0.17 (64bit) on [Sat Jun 23 06:22:12 2018] ***
+compiled with version: 4.4.7 20120313 (Red Hat 4.4.7-18) on 23 June 2018 02:58:06
+os: Linux-2.6.32-696.30.1.el6.x86_64 #1 SMP Tue May 22 03:28:18 UTC 2018
+nodename: pangestoe-server
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /
+detected binary path: /var/www/html/pangestoe-server/venv/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+group jose not found.
+*** Starting uWSGI 2.0.17 (64bit) on [Sat Jun 23 06:22:12 2018] ***
+compiled with version: 4.4.7 20120313 (Red Hat 4.4.7-18) on 23 June 2018 02:58:06
+os: Linux-2.6.32-696.30.1.el6.x86_64 #1 SMP Tue May 22 03:28:18 UTC 2018
+nodename: pangestoe-server
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /
+detected binary path: /var/www/html/pangestoe-server/venv/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+group jose not found.
+*** Starting uWSGI 2.0.17 (64bit) on [Sat Jun 23 06:22:12 2018] ***
+compiled with version: 4.4.7 20120313 (Red Hat 4.4.7-18) on 23 June 2018 02:58:06
+os: Linux-2.6.32-696.30.1.el6.x86_64 #1 SMP Tue May 22 03:28:18 UTC 2018
+nodename: pangestoe-server
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /
+detected binary path: /var/www/html/pangestoe-server/venv/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+group jose not found.
+*** Starting uWSGI 2.0.17 (64bit) on [Sat Jun 23 06:22:12 2018] ***
+compiled with version: 4.4.7 20120313 (Red Hat 4.4.7-18) on 23 June 2018 02:58:06
+os: Linux-2.6.32-696.30.1.el6.x86_64 #1 SMP Tue May 22 03:28:18 UTC 2018
+nodename: pangestoe-server
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /
+detected binary path: /var/www/html/pangestoe-server/venv/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+group jose not found.
+*** Starting uWSGI 2.0.17 (64bit) on [Sat Jun 23 06:22:12 2018] ***
+compiled with version: 4.4.7 20120313 (Red Hat 4.4.7-18) on 23 June 2018 02:58:06
+os: Linux-2.6.32-696.30.1.el6.x86_64 #1 SMP Tue May 22 03:28:18 UTC 2018
+nodename: pangestoe-server
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /
+detected binary path: /var/www/html/pangestoe-server/venv/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+group jose not found.
+*** Starting uWSGI 2.0.17 (64bit) on [Sat Jun 23 06:22:12 2018] ***
+compiled with version: 4.4.7 20120313 (Red Hat 4.4.7-18) on 23 June 2018 02:58:06
+os: Linux-2.6.32-696.30.1.el6.x86_64 #1 SMP Tue May 22 03:28:18 UTC 2018
+nodename: pangestoe-server
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /
+detected binary path: /var/www/html/pangestoe-server/venv/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+group jose not found.
+*** Starting uWSGI 2.0.17 (64bit) on [Sat Jun 23 06:29:46 2018] ***
+compiled with version: 4.4.7 20120313 (Red Hat 4.4.7-18) on 23 June 2018 02:58:06
+os: Linux-2.6.32-696.30.1.el6.x86_64 #1 SMP Tue May 22 03:28:18 UTC 2018
+nodename: pangestoe-server
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /
+detected binary path: /var/www/html/pangestoe-server/venv/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+setgid() to 500
+setuid() to 500
+your processes number limit is 3896
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+*** starting uWSGI Emperor ***
+Python version: 3.6.5 (default, Jun 23 2018, 02:20:49)  [GCC 4.4.7 20120313 (Red Hat 4.4.7-18)]
+*** has_emperor mode detected (fd: 5) ***
+[uWSGI] getting INI configuration from /var/www/html/pangestoe-server/uwsgi.ini
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x1d3a990
+your mercy for graceful operations on workers is 60 seconds
+*** Operational MODE: no-workers ***
+spawned uWSGI master process (pid: 1658)
+Sat Jun 23 06:29:47 2018 - [emperor] vassal /var/www/html/pangestoe-server/uwsgi.ini has been spawned
+Sat Jun 23 06:29:47 2018 - [emperor] vassal /var/www/html/pangestoe-server/uwsgi.ini is ready to accept requests
+Sat Jun 23 06:29:51 2018 - [emperor] vassal /var/www/html/pangestoe-server/uwsgi.ini is now loyal
+[emperor] *** RAGNAROK EVOKED ***
+Sat Jun 23 06:30:09 2018 - [emperor] stop the uwsgi instance /var/www/html/pangestoe-server/uwsgi.ini
+SIGINT/SIGQUIT received...killing workers...
+waiting for Emperor death...
+[emperor] *** RAGNAROK ALREADY EVOKED (mercyless in 30 seconds)***
+waiting for Emperor death...
+waiting for Emperor death...
+waiting for Emperor death...
+waiting for Emperor death...
+The Emperor has been buried (pid: 1659)
+goodbye to uWSGI.
+*** Starting uWSGI 2.0.17 (64bit) on [Sat Jun 23 06:30:40 2018] ***
+compiled with version: 4.4.7 20120313 (Red Hat 4.4.7-18) on 23 June 2018 02:58:06
+os: Linux-2.6.32-696.30.1.el6.x86_64 #1 SMP Tue May 22 03:28:18 UTC 2018
+nodename: pangestoe-server
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /
+detected binary path: /var/www/html/pangestoe-server/venv/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+setgid() to 500
+setuid() to 500
+your processes number limit is 3896
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+*** starting uWSGI Emperor ***
+*** has_emperor mode detected (fd: 5) ***
+[uWSGI] getting INI configuration from /var/www/html/pangestoe-server/uwsgi.ini
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+Python version: 3.6.5 (default, Jun 23 2018, 02:20:49)  [GCC 4.4.7 20120313 (Red Hat 4.4.7-18)]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x1b8ea30
+your mercy for graceful operations on workers is 60 seconds
+*** Operational MODE: no-workers ***
+spawned uWSGI master process (pid: 744)
+Sat Jun 23 06:30:42 2018 - [emperor] vassal /var/www/html/pangestoe-server/uwsgi.ini has been spawned
+Sat Jun 23 06:30:42 2018 - [emperor] vassal /var/www/html/pangestoe-server/uwsgi.ini is ready to accept requests
+Sat Jun 23 06:32:06 2018 - [emperor] vassal /var/www/html/pangestoe-server/uwsgi.ini is now loyal
+[emperor] *** RAGNAROK EVOKED ***
+Sat Jun 23 06:33:30 2018 - [emperor] stop the uwsgi instance /var/www/html/pangestoe-server/uwsgi.ini
+SIGINT/SIGQUIT received...killing workers...
+waiting for Emperor death...
+[emperor] *** RAGNAROK ALREADY EVOKED (mercyless in 30 seconds)***
+waiting for Emperor death...
+waiting for Emperor death...
+waiting for Emperor death...
+waiting for Emperor death...
+*** Starting uWSGI 2.0.17 (64bit) on [Sat Jun 23 06:33:42 2018] ***
+compiled with version: 4.4.7 20120313 (Red Hat 4.4.7-18) on 23 June 2018 02:58:06
+os: Linux-2.6.32-696.30.1.el6.x86_64 #1 SMP Tue May 22 03:28:18 UTC 2018
+nodename: pangestoe-server
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /
+detected binary path: /var/www/html/pangestoe-server/venv/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+setgid() to 500
+setuid() to 500
+your processes number limit is 3896
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+Python version: 3.6.5 (default, Jun 23 2018, 02:20:49)  [GCC 4.4.7 20120313 (Red Hat 4.4.7-18)]
+*** starting uWSGI Emperor ***
+*** has_emperor mode detected (fd: 5) ***
+[uWSGI] getting INI configuration from /var/www/html/pangestoe-server/uwsgi.ini
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0xdd1990
+your mercy for graceful operations on workers is 60 seconds
+*** Operational MODE: no-workers ***
+spawned uWSGI master process (pid: 1703)
+Sat Jun 23 06:33:43 2018 - [emperor] vassal /var/www/html/pangestoe-server/uwsgi.ini has been spawned
+Sat Jun 23 06:33:43 2018 - [emperor] vassal /var/www/html/pangestoe-server/uwsgi.ini is ready to accept requests
+Sat Jun 23 06:33:48 2018 - [emperor] vassal /var/www/html/pangestoe-server/uwsgi.ini is now loyal
+[emperor] *** RAGNAROK EVOKED ***
+Sat Jun 23 06:40:33 2018 - [emperor] stop the uwsgi instance /var/www/html/pangestoe-server/uwsgi.ini
+SIGINT/SIGQUIT received...killing workers...
+waiting for Emperor death...
+[emperor] *** RAGNAROK ALREADY EVOKED (mercyless in 30 seconds)***
+waiting for Emperor death...
+waiting for Emperor death...
+waiting for Emperor death...
+waiting for Emperor death...
+*** Starting uWSGI 2.0.17 (64bit) on [Sat Jun 23 06:40:52 2018] ***
+compiled with version: 4.4.7 20120313 (Red Hat 4.4.7-18) on 23 June 2018 02:58:06
+os: Linux-2.6.32-696.30.1.el6.x86_64 #1 SMP Tue May 22 03:28:18 UTC 2018
+nodename: pangestoe-server
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /
+detected binary path: /var/www/html/pangestoe-server/venv/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+setgid() to 500
+setuid() to 500
+your processes number limit is 3896
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+Python version: 3.6.5 (default, Jun 23 2018, 02:20:49)  [GCC 4.4.7 20120313 (Red Hat 4.4.7-18)]
+*** starting uWSGI Emperor ***
+*** has_emperor mode detected (fd: 5) ***
+[uWSGI] getting INI configuration from /var/www/html/pangestoe-server/uwsgi.ini
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0xfe9990
+your mercy for graceful operations on workers is 60 seconds
+*** Operational MODE: no-workers ***
+spawned uWSGI master process (pid: 1884)
+Sat Jun 23 06:40:53 2018 - [emperor] vassal /var/www/html/pangestoe-server/uwsgi.ini has been spawned
+Sat Jun 23 06:40:53 2018 - [emperor] vassal /var/www/html/pangestoe-server/uwsgi.ini is ready to accept requests
+Sat Jun 23 06:40:57 2018 - [emperor] vassal /var/www/html/pangestoe-server/uwsgi.ini is now loyal
+[emperor] *** RAGNAROK EVOKED ***
+Sat Jun 23 06:45:42 2018 - [emperor] stop the uwsgi instance /var/www/html/pangestoe-server/uwsgi.ini
+SIGINT/SIGQUIT received...killing workers...
+waiting for Emperor death...
+[emperor] *** RAGNAROK ALREADY EVOKED (mercyless in 30 seconds)***
+waiting for Emperor death...
+waiting for Emperor death...
+waiting for Emperor death...
+waiting for Emperor death...
+*** Starting uWSGI 2.0.17 (64bit) on [Sat Jun 23 06:47:02 2018] ***
+compiled with version: 4.4.7 20120313 (Red Hat 4.4.7-18) on 23 June 2018 02:58:06
+os: Linux-2.6.32-696.30.1.el6.x86_64 #1 SMP Tue May 22 03:28:18 UTC 2018
+nodename: pangestoe-server
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /
+detected binary path: /var/www/html/pangestoe-server/venv/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+setgid() to 500
+setuid() to 500
+your processes number limit is 3896
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+Python version: 3.6.5 (default, Jun 23 2018, 02:20:49)  [GCC 4.4.7 20120313 (Red Hat 4.4.7-18)]
+*** starting uWSGI Emperor ***
+*** has_emperor mode detected (fd: 5) ***
+[uWSGI] getting INI configuration from /var/www/html/pangestoe-server/uwsgi.ini
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0xeea990
+your mercy for graceful operations on workers is 60 seconds
+*** Operational MODE: no-workers ***
+spawned uWSGI master process (pid: 2106)
+Sat Jun 23 06:47:03 2018 - [emperor] vassal /var/www/html/pangestoe-server/uwsgi.ini has been spawned
+Sat Jun 23 06:47:03 2018 - [emperor] vassal /var/www/html/pangestoe-server/uwsgi.ini is ready to accept requests
+Sat Jun 23 06:47:16 2018 - [emperor] vassal /var/www/html/pangestoe-server/uwsgi.ini is now loyal
+Sat Jun 23 06:48:14 2018 - [emperor] vassal /var/www/html/pangestoe-server/uwsgi.ini is now loyal
