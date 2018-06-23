@@ -25,16 +25,19 @@ body {
 .logo {
 	color: #000;
 	font-weight: bold;
-    height: 3.5%;
+    height: 30px;
 	float: left;
 	margin-top: -10px;
 	margin-left: -9px;
 	letter-spacing: 4px;
+	width: 100px;
 
 }
 
 div.logo img {
-    height: 100% !important;
+    height: 150px !important;
+	margin-top: -14px;
+	margin-left: -14px;
 }
 
 .heading {
@@ -88,6 +91,7 @@ div.heading_box {
 #about_title{
     text-align: center;
     margin: 30px auto;
+    letter-spacing: 1px;
 }
 
 .first_banner {

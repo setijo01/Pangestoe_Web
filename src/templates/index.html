@@ -15,9 +15,8 @@
 </head>
 <body>
     <div class="container" id="main_container">
-        <div class="logo"><img src="{{ url_for('static', filename='img/logo_placeholder.png') }}"></div>
         <nav class="navbar navbar-light navbar-expand-md bg-light justify-content-between">
-            <div class="logo-placeholder"></div>
+            <div class="logo"><img src="{{ url_for('static', filename='img/logo_placeholder.png') }}"></div>
             <button class="navbar-toggler ml-1" type="button" data-toggle="collapse" data-target="#collapsingNavbar2">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -32,17 +31,10 @@
                     <li class="nav-item">
                         <a class="nav-link" href="#blog">Blog</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#contact">Contact</a>
-                    </li>
                 </ul>
                 <ul class="nav navbar-nav flex-row justify-content-center flex-nowrap">
-                    <li class="nav-item"><a class="nav-link" href=""><i class="fa fa-phone"></i></a> </li>
-                    <li class="nav-item"><a class="nav-link" href=""><i class="fa fa-mobile"></i></a> </li>
-                    <li class="nav-item"><a class="nav-link" href=""><i class="fa fa-envelope"></i></a> </li>
-                    <li class="nav-item"><a class="nav-link" href=""><i class="fab fa-instagram"></i></a> </li>
-                    <li class="nav-item"><a class="nav-link" href=""><i class="fa fa-map"></i></a> </li>
-
+                    <li class="nav-item"><a class="nav-link" href="mailto:info@pangestoebespoke.com?subject=Subject&body=message%20goes%20here"><i class="fa fa-envelope"></i></a> </li>
+                    <li class="nav-item"><a class="nav-link" href="https://www.instagram.com/pangestoe_bespoke/"><i class="fab fa-instagram"></i></a> </li>
                 </ul>
             </div>
         </nav>
