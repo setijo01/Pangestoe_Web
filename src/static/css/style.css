@@ -9,7 +9,7 @@ body {
 
 #main_container {
     width: 120%!important;
-    height: 4000px;
+    height: auto;
     margin-left: auto;
     margin-right: auto;
     background: #ffffff;
