@@ -539,3 +539,38 @@ Sat Jun 23 06:47:03 2018 - [emperor] vassal /var/www/html/pangestoe-server/uwsgi
 Sat Jun 23 06:47:03 2018 - [emperor] vassal /var/www/html/pangestoe-server/uwsgi.ini is ready to accept requests
 Sat Jun 23 06:47:16 2018 - [emperor] vassal /var/www/html/pangestoe-server/uwsgi.ini is now loyal
 Sat Jun 23 06:48:14 2018 - [emperor] vassal /var/www/html/pangestoe-server/uwsgi.ini is now loyal
+*** Starting uWSGI 2.0.17 (64bit) on [Sat Jun 23 07:36:15 2018] ***
+compiled with version: 4.4.7 20120313 (Red Hat 4.4.7-18) on 23 June 2018 02:58:06
+os: Linux-2.6.32-696.30.1.el6.x86_64 #1 SMP Tue May 22 03:28:18 UTC 2018
+nodename: pangestoe-server
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /
+detected binary path: /var/www/html/pangestoe-server/venv/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+setgid() to 500
+setuid() to 500
+your processes number limit is 3896
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+Python version: 3.6.5 (default, Jun 23 2018, 02:20:49)  [GCC 4.4.7 20120313 (Red Hat 4.4.7-18)]
+*** starting uWSGI Emperor ***
+*** has_emperor mode detected (fd: 5) ***
+[uWSGI] getting INI configuration from /var/www/html/pangestoe-server/uwsgi.ini
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x145d990
+your mercy for graceful operations on workers is 60 seconds
+*** Operational MODE: no-workers ***
+spawned uWSGI master process (pid: 3571)
+Sat Jun 23 07:36:16 2018 - [emperor] vassal /var/www/html/pangestoe-server/uwsgi.ini has been spawned
+Sat Jun 23 07:36:16 2018 - [emperor] vassal /var/www/html/pangestoe-server/uwsgi.ini is ready to accept requests
+Sat Jun 23 07:36:21 2018 - [emperor] vassal /var/www/html/pangestoe-server/uwsgi.ini is now loyal
+Sat Jun 23 07:36:22 2018 - [emperor] vassal /var/www/html/pangestoe-server/uwsgi.ini is now loyal
+Sat Jun 23 07:46:45 2018 - [emperor] vassal /var/www/html/pangestoe-server/uwsgi.ini is now loyal
+Sat Jun 23 07:54:41 2018 - [emperor] vassal /var/www/html/pangestoe-server/uwsgi.ini is now loyal
+Sat Jun 23 17:17:15 2018 - [emperor] vassal /var/www/html/pangestoe-server/uwsgi.ini is now loyal
+Sat Jun 23 17:17:34 2018 - [emperor] vassal /var/www/html/pangestoe-server/uwsgi.ini is now loyal
+Sat Jun 23 17:35:23 2018 - [emperor] vassal /var/www/html/pangestoe-server/uwsgi.ini is now loyal
