@@ -134,3 +134,9 @@ div.heading_box {
 }
 }
 
+@media (min-width: 1800px){
+    .container {
+    max-width: 1600px;
+}
+}
+
