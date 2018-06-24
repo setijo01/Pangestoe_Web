@@ -25,11 +25,20 @@ class User(object):
         if user_data:
             return cls(**user_data)
 
+    @classmethod
+    def get_by_email(cls, email):
+        user_data = Database.find_one(collection='users', query={'email': email})
+        if user_data:
+            return cls(**user_data)
+
     def save_to_database(self):
         while self.get_by_id(self._id):
             self._id = uuid.uuid4().hex
         Database.insert(collection='users', data=self.json())
         print("User created successfully.")
+
+    def update_to_database(self):
+        Database.update(collection='users', query_id=self._id, data=self.json())
 
     def is_login_valid(self):
         pass
