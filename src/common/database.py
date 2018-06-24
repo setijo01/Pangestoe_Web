@@ -24,8 +24,12 @@ class Database(object):
         return Database.DATABASE[collection].find_one(query)
 
     @staticmethod
-    def update(collection, query_id, data):
-        return Database.DATABASE[collection].update_one(query_id, data, upsert=False)
+    def update(collection, query, data):
+        return Database.DATABASE[collection].update_one(query, data, upsert=False)
+
+    @staticmethod
+    def delete(collection, query):
+        return Database.DATABASE[collection].delete_one(query)
 
     @staticmethod
     def sort(collection, sort_query, num):

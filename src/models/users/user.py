@@ -1,4 +1,6 @@
 from src.common.database import Database
+from src.common.utils import Utils
+import src.models.users.errors as UserErrors
 import datetime
 import uuid
 
@@ -6,10 +8,10 @@ import uuid
 class User(object):
 
     def __init__(self, email, hashed_password, date_registered=datetime.datetime.utcnow(), _id=None):
+        self._id = uuid.uuid4().hex if _id is None else _id
         self.email = email
         self.hashed_password = hashed_password
         self.date_registered = date_registered
-        self._id = uuid.uuid4().hex if _id is None else _id
 
     def json(self):
         return {
@@ -37,11 +39,23 @@ class User(object):
         Database.insert(collection='users', data=self.json())
         print("User created successfully.")
 
-    def update_to_database(self):
-        Database.update(collection='users', query_id=self._id, data=self.json())
+    @staticmethod
+    def is_login_valid(email, sha512_password):
+        user_data = Database.find_one(collection='users', query={'email': email})
+        if user_data is None:
+            raise UserErrors.UserNotExistError("User doesn't exist.")
+        if not Utils.check_hashed_password(sha512_password, user_data['hashed_password']):
+            raise UserErrors.UserIncorrectPasswordError("Incorrect password.")
+        return True
 
-    def is_login_valid(self):
-        pass
+    @staticmethod
+    def register(email, sha512_password):
+        user_data = Database.find_one(collection='users', query={'email': email})
+        if user_data:
+            raise UserErrors.UserAlreadyExistsError("User already registered.")
+        if not Utils.email_is_valid(email):
+            raise UserErrors.IncorrectEmailFormat("Invalid email.")
 
-    def is_register_valid(self):
-        pass
+        User(email, Utils.hash_password(sha512_password)).save_to_database()
+
+        return True

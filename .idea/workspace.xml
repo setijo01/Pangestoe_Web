@@ -2,8 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e7f1b8bb-22e8-4201-a431-4e752ccde281" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/src/models/users/errors.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/app.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/common/database.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/common/database.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/common/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/common/utils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/models/entries/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/models/entries/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/models/images/image.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/models/images/image.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/models/images/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/models/images/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/models/users/user.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/models/users/user.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/models/users/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/models/users/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/static/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/static/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/templates/base.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -13,15 +23,16 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/Pangestoe_Web$run.coverage" NAME="run Coverage Results" MODIFIED="1529820046836" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
+    <SUITE FILE_PATH="coverage/Pangestoe_Web$app.coverage" NAME="app Coverage Results" MODIFIED="1529871461143" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
+    <SUITE FILE_PATH="coverage/Pangestoe_Web$run.coverage" NAME="run Coverage Results" MODIFIED="1529875088094" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="app.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/app.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="24" column="10" selection-start-line="24" selection-start-column="10" selection-end-line="24" selection-end-column="10" />
+            <state relative-caret-position="374">
+              <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
               <folding>
                 <element signature="e#0#77#0" expanded="true" />
               </folding>
@@ -29,48 +40,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="decorators.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/models/images/decorators.py">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/models/images/views.py">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/static/css/style.css">
+      <file leaf-file-name="run.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/run.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2295">
-              <caret line="135" column="19" selection-start-line="135" selection-start-column="19" selection-end-line="135" selection-end-column="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="image.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/models/images/image.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" selection-start-line="7" selection-end-line="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/templates/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="12" selection-end-column="10" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="base.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/templates/base.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="33" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="88" />
+            <state relative-caret-position="34">
+              <caret line="2" column="45" lean-forward="true" selection-start-line="2" selection-start-column="45" selection-end-line="2" selection-end-column="45" />
             </state>
           </provider>
         </entry>
@@ -78,10 +52,22 @@
       <file leaf-file-name="entry.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/models/entries/entry.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="40" selection-start-line="2" selection-start-column="40" selection-end-line="2" selection-end-column="40" />
+            <state relative-caret-position="153">
+              <caret line="9" column="18" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
               <folding>
                 <element signature="e#0#11#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="image.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/models/images/image.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="540">
+              <caret line="33" column="8" selection-start-line="33" selection-start-column="8" selection-end-line="34" selection-end-column="39" />
+              <folding>
+                <element signature="e#0#40#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -90,8 +76,8 @@
       <file leaf-file-name="user.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/models/users/user.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" column="26" selection-start-line="16" selection-start-column="26" selection-end-line="16" selection-end-column="26" />
+            <state relative-caret-position="480">
+              <caret line="60" column="19" selection-start-line="60" selection-start-column="19" selection-end-line="60" selection-end-column="19" />
               <folding>
                 <element signature="e#0#40#0" expanded="true" />
               </folding>
@@ -99,11 +85,53 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/models/users/views.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="629">
+              <caret line="37" column="13" lean-forward="true" selection-start-line="37" selection-start-column="13" selection-end-line="37" selection-end-column="13" />
+              <folding>
+                <element signature="e#0#81#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="requirements.txt" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/requirements.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="5" column="14" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="utils.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/common/utils.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="17" column="12" lean-forward="true" selection-start-line="17" selection-start-column="12" selection-end-line="17" selection-end-column="12" />
+              <folding>
+                <element signature="e#0#9#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="errors.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/models/users/errors.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="17" selection-start-line="17" selection-end-line="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="database.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/common/database.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="14" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
+            <state relative-caret-position="391">
+              <caret line="23" selection-start-line="23" selection-end-line="23" />
               <folding>
                 <element signature="e#0#14#0" expanded="true" />
               </folding>
@@ -136,36 +164,37 @@
       <list>
         <option value="$PROJECT_DIR$/src/models/constants.py" />
         <option value="$PROJECT_DIR$/src/models/entries/decorators.py" />
-        <option value="$PROJECT_DIR$/src/common/utils.py" />
-        <option value="$PROJECT_DIR$/src/models/entries/entry.py" />
-        <option value="$PROJECT_DIR$/src/models/entries/views.py" />
-        <option value="$PROJECT_DIR$/src/models/users/views.py" />
         <option value="$PROJECT_DIR$/src/models/users/decorators.py" />
         <option value="$PROJECT_DIR$/../../Pangestoe Web/css/style.css" />
         <option value="$PROJECT_DIR$/src/config.py" />
         <option value="$PROJECT_DIR$/runtime.txt" />
         <option value="$PROJECT_DIR$/Procfile" />
-        <option value="$PROJECT_DIR$/requirements.txt" />
         <option value="$PROJECT_DIR$/uwsgi.ini" />
-        <option value="$PROJECT_DIR$/src/common/database.py" />
         <option value="$PROJECT_DIR$/src/run.py" />
         <option value="$PROJECT_DIR$/src/templates/gallery.html" />
         <option value="$PROJECT_DIR$/src/static/css/gallery.css" />
         <option value="$PROJECT_DIR$/src/templates/index.html" />
         <option value="$PROJECT_DIR$/src/templates/gallery_test.html" />
         <option value="$PROJECT_DIR$/src/static/css/gallery_test.css" />
-        <option value="$PROJECT_DIR$/src/app.py" />
         <option value="$PROJECT_DIR$/src/templates/gallery_view.html" />
         <option value="$PROJECT_DIR$/src/static/css/gallery_view.css" />
         <option value="$PROJECT_DIR$/src/models/admin/admin.py" />
         <option value="$PROJECT_DIR$/src/models/user/user.py" />
         <option value="$PROJECT_DIR$/src/models/images/decorators.py" />
         <option value="$PROJECT_DIR$/src/models/images/views.ipynb" />
-        <option value="$PROJECT_DIR$/src/models/images/views.py" />
-        <option value="$PROJECT_DIR$/src/models/images/image.py" />
-        <option value="$PROJECT_DIR$/src/models/users/user.py" />
-        <option value="$PROJECT_DIR$/src/static/css/style.css" />
         <option value="$PROJECT_DIR$/src/templates/base.html" />
+        <option value="$PROJECT_DIR$/src/static/css/style.css" />
+        <option value="$PROJECT_DIR$/src/common/database.py" />
+        <option value="$PROJECT_DIR$/src/models/entries/views.py" />
+        <option value="$PROJECT_DIR$/src/models/images/views.py" />
+        <option value="$PROJECT_DIR$/requirements.txt" />
+        <option value="$PROJECT_DIR$/src/models/images/image.py" />
+        <option value="$PROJECT_DIR$/src/models/entries/entry.py" />
+        <option value="$PROJECT_DIR$/src/common/utils.py" />
+        <option value="$PROJECT_DIR$/src/models/users/errors.py" />
+        <option value="$PROJECT_DIR$/src/models/users/user.py" />
+        <option value="$PROJECT_DIR$/src/models/users/views.py" />
+        <option value="$PROJECT_DIR$/src/app.py" />
       </list>
     </option>
   </component>
@@ -185,8 +214,8 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="504" />
-    <option name="y" value="22" />
+    <option name="x" value="307" />
+    <option name="y" value="149" />
     <option name="width" value="1400" />
     <option name="height" value="1100" />
   </component>
@@ -198,6 +227,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -227,6 +257,13 @@
               <item name="Pangestoe_Web" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="models" type="462c0819:PsiDirectoryNode" />
+              <item name="entries" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Pangestoe_Web" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Pangestoe_Web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="models" type="462c0819:PsiDirectoryNode" />
               <item name="images" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -240,33 +277,12 @@
               <item name="Pangestoe_Web" type="b2602c69:ProjectViewProjectNode" />
               <item name="Pangestoe_Web" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Pangestoe_Web" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Pangestoe_Web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Pangestoe_Web" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Pangestoe_Web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="img" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Pangestoe_Web" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Pangestoe_Web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="templates" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -275,7 +291,7 @@
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="IntelliLang.Configuration" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -289,7 +305,26 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.run">
+    <configuration name="app" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Pangestoe_Web" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/app.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
     <configuration name="run" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Pangestoe_Web" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -309,9 +344,14 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
+    <list>
+      <item itemvalue="Python.run" />
+      <item itemvalue="Python.app" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="Python.run" />
+        <item itemvalue="Python.app" />
       </list>
     </recent_temporary>
   </component>
@@ -336,13 +376,12 @@
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Python Console" order="7" />
+      <window_info anchor="bottom" id="Python Console" order="7" weight="0.3297414" />
       <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.33943966" />
       <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26705757" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26972282" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.34159482" />
       <window_info anchor="right" id="SciView" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
@@ -354,29 +393,31 @@
       <window_info anchor="bottom" id="Inspection Results" order="8" weight="0.3297414" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.34159482" />
     </layout>
     <layout-to-restore>
+      <window_info anchor="bottom" id="Find" order="1" weight="0.34159482" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26972282" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25373134" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32952183" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.33943966" />
+      <window_info anchor="bottom" id="Inspection Results" order="13" weight="0.3297414" />
+      <window_info active="true" anchor="bottom" id="Python Console" order="10" visible="true" weight="0.3297414" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="right" id="Database" order="4" />
       <window_info anchor="bottom" id="Terminal" order="11" />
       <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
-      <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="right" id="SciView" order="4" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Python Console" order="10" />
+      <window_info id="Favorites" order="2" side_tool="true" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -391,40 +432,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/app.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="20" selection-start-line="20" selection-end-line="20" />
-          <folding>
-            <element signature="e#0#77#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/runtime.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="12" selection-start-column="12" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Procfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="13" selection-start-column="13" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/common/database.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="9" column="14" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
-          <folding>
-            <element signature="e#0#14#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/requirements.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -598,13 +605,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/requirements.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="5" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/uwsgi.ini">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
@@ -648,13 +648,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/run.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="20" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../freebie-4-bootstrap-gallery-templates/fluid/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="459">
@@ -677,70 +670,25 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/models/entries/entry.py">
+    <entry file="file://$PROJECT_DIR$/src/models/images/views.ipynb" />
+    <entry file="file://$USER_HOME$/.PyCharm2018.1/system/python_stubs/596554811/builtins.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="40" selection-start-line="2" selection-start-column="40" selection-end-line="2" selection-end-column="40" />
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" column="10" selection-start-line="24" selection-start-column="10" selection-end-line="24" selection-end-column="10" />
-          <folding>
-            <element signature="e#0#77#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/models/images/views.ipynb">
-      <provider selected="true" editor-type-id="ipnb-editor">
-        <state>
-          <selected id="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/models/images/decorators.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/models/images/views.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/models/images/image.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/models/users/user.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="26" selection-start-line="16" selection-start-column="26" selection-end-line="16" selection-end-column="26" />
-          <folding>
-            <element signature="e#0#40#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/common/database.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="14" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
-          <folding>
-            <element signature="e#0#14#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="301">
+          <caret line="794" column="8" selection-start-line="794" selection-start-column="8" selection-end-line="794" selection-end-column="8" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/static/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2295">
-          <caret line="135" column="19" selection-start-line="135" selection-start-column="19" selection-end-line="135" selection-end-column="19" />
+        <state relative-caret-position="17">
+          <caret line="1" column="73" lean-forward="true" selection-start-line="1" selection-start-column="73" selection-end-line="1" selection-end-column="73" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/models/entries/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="17" selection-end-column="8" />
         </state>
       </provider>
     </entry>
@@ -753,8 +701,106 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/templates/base.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
+        <state relative-caret-position="17">
           <caret line="8" column="33" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="88" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/models/images/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="25" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/models/images/image.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="33" column="8" selection-start-line="33" selection-start-column="8" selection-end-line="34" selection-end-column="39" />
+          <folding>
+            <element signature="e#0#40#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/models/entries/entry.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="18" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/common/database.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
+          <folding>
+            <element signature="e#0#14#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/run.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="45" lean-forward="true" selection-start-line="2" selection-start-column="45" selection-end-line="2" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/models/users/errors.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/common/utils.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="12" lean-forward="true" selection-start-line="17" selection-start-column="12" selection-end-line="17" selection-end-column="12" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/models/users/user.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="60" column="19" selection-start-line="60" selection-start-column="19" selection-end-line="60" selection-end-column="19" />
+          <folding>
+            <element signature="e#0#40#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/models/users/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="629">
+          <caret line="37" column="13" lean-forward="true" selection-start-line="37" selection-start-column="13" selection-end-line="37" selection-end-column="13" />
+          <folding>
+            <element signature="e#0#81#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+          <folding>
+            <element signature="e#0#77#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/requirements.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="14" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
         </state>
       </provider>
     </entry>

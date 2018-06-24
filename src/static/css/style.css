@@ -35,7 +35,7 @@ body {
 }
 
 div.logo img {
-    height: 150px !important;
+    height: 100px !important;
 	margin-top: -14px;
 	margin-left: -14px;
 }
@@ -141,5 +141,8 @@ div.heading_box {
     .container {
     	max-width: 1600px;
 }
+	div.logo img {
+		height: 150px !important;
+	}
 }
 
