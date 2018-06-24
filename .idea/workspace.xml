@@ -2,18 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e7f1b8bb-22e8-4201-a431-4e752ccde281" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/models/users/errors.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/app.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/common/database.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/common/database.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/common/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/common/utils.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/models/entries/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/models/entries/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/models/images/image.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/models/images/image.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/models/images/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/models/images/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/models/users/user.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/models/users/user.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/models/users/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/models/users/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/static/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/static/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -61,18 +50,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="image.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/models/images/image.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="540">
-              <caret line="33" column="8" selection-start-line="33" selection-start-column="8" selection-end-line="34" selection-end-column="39" />
-              <folding>
-                <element signature="e#0#40#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="user.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/models/users/user.py">
           <provider selected="true" editor-type-id="text-editor">
@@ -97,11 +74,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="requirements.txt" pinned="false" current-in-tab="true">
+      <file leaf-file-name="requirements.txt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/requirements.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="14" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
+            <state relative-caret-position="34">
+              <caret line="2" column="14" lean-forward="true" selection-start-line="2" selection-start-column="14" selection-end-line="2" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="9" selection-start-line="2" selection-start-column="9" selection-end-line="2" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -195,6 +181,7 @@
         <option value="$PROJECT_DIR$/src/models/users/user.py" />
         <option value="$PROJECT_DIR$/src/models/users/views.py" />
         <option value="$PROJECT_DIR$/src/app.py" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -377,9 +364,9 @@
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Python Console" order="7" weight="0.3297414" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.33943966" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.33943966" />
       <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26972282" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26972282" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="right" id="SciView" order="3" />
@@ -432,13 +419,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/requirements.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="5" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/config.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
@@ -799,8 +779,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/requirements.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="14" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
+        <state relative-caret-position="34">
+          <caret line="2" column="14" lean-forward="true" selection-start-line="2" selection-start-column="14" selection-end-line="2" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="9" selection-start-line="2" selection-start-column="9" selection-end-line="2" selection-end-column="9" />
         </state>
       </provider>
     </entry>
