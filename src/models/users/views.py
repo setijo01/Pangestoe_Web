@@ -17,7 +17,7 @@ def login():
                 return redirect(url_for(".user_page", user_id=User.get_by_email(email)._id))
         except UserErrors.UserError as e:
             return e.message
-    return render_template("users/login.html")
+    return render_template("users/login.jinja2")
 
 
 @user_bp.route('/register', methods=['GET', 'POST'])
@@ -31,12 +31,12 @@ def register():
                 return redirect(url_for(".user_page", user_id=User.get_by_email(email)._id))
         except UserErrors.UserError as e:
             return e.message
-    return render_template("users/register.html")
+    return render_template("users/register.jinja2")
 
 
 @user_bp.route('/logout')
 def logout():
-    pass
+    session['email'] = None
 
 
 @user_bp.route('/<string:user_id>')

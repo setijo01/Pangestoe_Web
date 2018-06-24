@@ -12,11 +12,12 @@ app.secret_key = str(os.environ.get('SECRET_KEY'))
 @app.before_first_request
 def initialize_database():
     Database.initialize()
+    session['email'] = None
 
 
 @app.route('/')
 def index():
-    return render_template('index.html')
+    return render_template('index.jinja2')
 
 
 app.register_blueprint(user_bp, url_prefix='/users')
