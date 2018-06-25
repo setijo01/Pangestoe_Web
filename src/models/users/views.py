@@ -3,10 +3,10 @@ from flask import Blueprint, request, session, redirect, url_for, render_templat
 import src.models.users.errors as UserErrors
 from src.models.users.user import User
 
-user_bp = Blueprint('users', __name__)
+users_bp = Blueprint('users', __name__)
 
 
-@user_bp.route('/login', methods=['GET', 'POST'])
+@users_bp.route('/login', methods=['GET', 'POST'])
 def login():
     if request.method == 'POST':
         email = request.form['email']
@@ -20,7 +20,7 @@ def login():
     return render_template("users/login.jinja2")
 
 
-@user_bp.route('/register', methods=['GET', 'POST'])
+@users_bp.route('/register', methods=['GET', 'POST'])
 def register():
     if request.method == 'POST':
         email = request.form['email']
@@ -34,11 +34,11 @@ def register():
     return render_template("users/register.jinja2")
 
 
-@user_bp.route('/logout')
+@users_bp.route('/logout')
 def logout():
     session['email'] = None
 
 
-@user_bp.route('/<string:user_id>')
+@users_bp.route('/<string:user_id>')
 def user_page(user_id):
     return "Welcome, {}".format(user_id)

@@ -1,7 +1,7 @@
 from flask import Flask, render_template, request, session, redirect, url_for
 from src.common.database import Database
 import os
-from src.models.users.views import user_bp
+from src.models.users.views import users_bp
 
 app = Flask(__name__)
 app.config.from_object('src.config')
@@ -20,4 +20,5 @@ def index():
     return render_template('index.jinja2')
 
 
-app.register_blueprint(user_bp, url_prefix='/users')
+app.register_blueprint(users_bp, url_prefix='/users')
+
