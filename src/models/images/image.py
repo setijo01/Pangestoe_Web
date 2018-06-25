@@ -39,7 +39,7 @@ class Image(object):
             Database.update(collection='images', query={'name': self.name}, data=self.json())
         else:
             Database.insert(collection='images', data=self.json())
-        print("User created successfully.")
+        print("Image stored successfully.")
 
     @staticmethod
     def from_gallery(gallery_id):
